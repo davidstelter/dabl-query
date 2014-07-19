@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/davidstelter/dabl-query.png)](https://travis-ci.org/davidstelter/dabl-query)
+
 The Query component of [DABL](https://github.com/manifestwebdesign/DABL).
 
 DABL-Query provides object-oriented SQL query building.
