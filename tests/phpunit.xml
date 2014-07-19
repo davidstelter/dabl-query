@@ -1,0 +1,21 @@
+<phpunit
+	backupGlobals="false"
+	backupStaticAttributes="false"
+	colors="true"
+	convertErrorsToExceptions="true"
+	convertNoticesToExceptions="false"
+	convertWarningsToExceptions="false"
+	bootstrap="config.php"
+	processIsolation="false"
+	stopOnFailure="false"
+	syntaxCheck="true"
+	verbose="true"
+	strict="true">
+		 <!-- backupStaticAttributes must be false or DB tests are broken due to serialization -->
+	<php>
+		<server name='HTTP_HOST' value='test'/>
+		<const name="CONTROLLERS_DIR" value="./"/>
+		<const name="DEFAULT_CONTROLLER" value="Index"/>
+		<const name="BASE_URL" value="http://test"/>
+	</php>
+</phpunit>
